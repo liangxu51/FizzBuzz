@@ -5,14 +5,14 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'cd /home/lxu/FizzBuzz; ./gradlew clean build'
+                sh './gradlew clean build'
            }
         }
         stage('Unit Tests') {
             steps {
                 script {
                     try {
-                        sh 'cd /home/lxu/FizzBuzz; ./gradlew clean test --no-daemon' //run a gradle task
+                        sh './gradlew clean test --no-daemon' //run a gradle task
                     } finally {
                         junit '**/build/test-results/test/*.xml' //make the junit test results available in any case (success & failure)
                     }
