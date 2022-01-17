@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.gradle.tutorial.FizzBuzzTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-07-08T15:09:57" hostname="k8s-master" time="0.006">
+  <properties/>
+  <testcase name="FizzBuzzThreeNumbers" classname="com.gradle.tutorial.FizzBuzzTest" time="0.005"/>
+  <testcase name="FizzBuzzFiveNumbers" classname="com.gradle.tutorial.FizzBuzzTest" time="0.0"/>
+  <testcase name="FizzBuzzNormalNumbers" classname="com.gradle.tutorial.FizzBuzzTest" time="0.0"/>
+  <testcase name="FizzBuzzThreeAndFiveNumbers" classname="com.gradle.tutorial.FizzBuzzTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
