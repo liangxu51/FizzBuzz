@@ -1,2 +1,0 @@
-com/gradle/tutorial/FizzBuzzTest.java
- com.gradle.tutorial.FizzBuzzTest
